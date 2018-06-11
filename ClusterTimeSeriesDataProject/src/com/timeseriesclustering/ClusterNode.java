@@ -84,7 +84,7 @@ public class ClusterNode {
             }
         }
 
-        // Check if the new cluster diameter is more than the threshold
+        // Check if the new cluster radius/diameter is more than the threshold
         if (newClusterDiameter > IncrementalDissimilarityLinkage.clusterDiameterThreshold) {
             split=true;
             return testAggregate();
